@@ -1,11 +1,11 @@
-
+import React from 'react'
 import {BrowserRouter} from 'react-router-dom';
-import Login from './pages/Login';
+import Data from './pages/Data/Data';
 
 const App = () => {
   return (
     <BrowserRouter>
-    <Login />
+    <Data />
     </BrowserRouter>
   )
 }
