@@ -20,7 +20,7 @@ const Data = () => {
 
   
   return (
-      <div className='details'>
+      <div className='details' style={{ height: '400px', overflowY: 'scroll' }}>
         <h1>Enter Details</h1>
         <div>
           <input name='tname' value={tname} placeholder='Tile Name' onChange={(e) => settname(e.target.value)} />
